@@ -5,6 +5,13 @@ function increment() {
     document.getElementById("count").innerText = count;
 }
 
+function decrement() {
+    if (count > 0) {
+        count--;
+        document.getElementById("count").innerText = count;
+    }
+}
+
 function save() {
     count = parseInt(document.getElementById("count").innerText);
 
