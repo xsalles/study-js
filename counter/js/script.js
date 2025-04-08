@@ -12,6 +12,12 @@ function decrement() {
     }
 }
 
+function clearCount() {
+    count = 0;
+    document.getElementById("count").innerText = count;
+    console.log("Counter cleared");
+}
+
 function save() {
     count = parseInt(document.getElementById("count").innerText);
 

@@ -36,6 +36,10 @@ button {
     background: darkblue;
 }
 
+#clear-btn {
+    background: darkorange;
+}
+
 #save-btn {
     background: darkgreen;
 }
