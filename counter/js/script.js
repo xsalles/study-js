@@ -12,4 +12,7 @@ function save() {
     savedCount.innerText = count;
     
     localStorage.setItem("count", savedCount.innerText)
+    
+    count = 0;
+    document.getElementById("count").innerText = count;
 }
